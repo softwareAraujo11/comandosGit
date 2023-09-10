@@ -1,0 +1,17 @@
+git init: inicia el repositorio
+git config user.name "softwareAraujo11": decir de quien es el repositorio
+git config user.email "softwareengineer.felipearaujo@gmail.com": decir cual es el email del usuario
+git remote add origin "https://github.com/softwareAraujo11/AgendaElectronica.git":comunicar repositorio local con el de github
+git status: me dice cual es el estado
+git add .: agrega todos los archivos provicionalmente
+git commit -m "Agenda electronica terminada": confirmar que se pasaran los archivos de forma definitiva y nos permite dejar un comentario de lo que hicimos
+git push -u origin master: pasar los archivos al repositorio remoto
+git clone https://github.com/softwareAraujo11/AgendaElectronica: clonar el repositorio
+git pull origin master: clona los cambios que hacen falta
+git branch: me dice en que rama estoy y cuales ramas hay
+git branch rama1: me crea una rama
+git branch -m rama1 ramita1: me cambia el nombre de la rama
+git checkout ramita1: me cambia de rama
+git branch -d ramita1: elimina la rama
+git diff master ramita1: me muestra las diferencias
+git merch ramita1 master: incorpora los cambios de una rama a otra
